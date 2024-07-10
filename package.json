@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-adapter-gitlab-pages",
+  "version": "1.0.0",
+  "description": "A Gatsby adapter for deploying sites to GitLab Pages with support for redirects.",
+  "main": "gatsby-adapter-gitlab-pages.js",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-adapter",
+    "gitlab-pages",
+    "redirects"
+  ],
+  "author": "whatwedo GmbH <welove@whatwedo.ch>",
+  "contributors": [
+    "Marc Wieland <mail@marcwieland.name>"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^5.12.0 || ^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatwedo/gatsby-adapter-gitlab-pages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whatwedo/gatsby-adapter-gitlab-pages/issues"
+  },
+  "homepage": "https://github.com/whatwedo/gatsby-adapter-gitlab-pages#readme"
+}
