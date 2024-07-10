@@ -15,11 +15,11 @@ The adapters feature was added in gatsby@5.12.0. For that your Gatsby has to wor
 
 ## How to install
 
-### Package Installtion
+### Package Installation
 Install this adapter as a NPM dependency:
 
 ```
-npm install whatwedo/gatsby-adapter-gitlab-pages
+npm install @whatwedo/gatsby-adapter-gitlab-pages
 ```
 
 ### Update gatsby-config.js
@@ -34,7 +34,7 @@ module.exports = {
   plugins: [
     // Other plugins...
   ],
-  adapter: require('gatsby-adapter-gitlab-pages')(),
+  adapter: require('@whatwedo/gatsby-adapter-gitlab-pages')(),
 };
 ```
 
