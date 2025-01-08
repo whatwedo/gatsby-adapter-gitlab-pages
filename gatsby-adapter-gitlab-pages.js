@@ -67,7 +67,7 @@ const createAdapterGitlabPages = (adapterOptions = {}) => {
                 }
 
                 // Saving .cache directory
-                const gatsbyCache = directories.cache;
+                const gatsbyCache = path.join(process.cwd(), '.cache');
                 const cachedGatsbyCache = path.join(cachePath, '.cache');
                 if (fs.existsSync(gatsbyCache)) {
                     fs.rmSync(cachedGatsbyCache, { recursive: true, force: true });
@@ -78,7 +78,7 @@ const createAdapterGitlabPages = (adapterOptions = {}) => {
                 }
 
                 // Saving public directory
-                const publicDir = directories.public;
+                const publicDir = path.join(process.cwd(), 'public');
                 const cachedPublicDir = path.join(cachePath, 'public');
                 if (fs.existsSync(publicDir)) {
                     fs.rmSync(cachedPublicDir, { recursive: true, force: true });
